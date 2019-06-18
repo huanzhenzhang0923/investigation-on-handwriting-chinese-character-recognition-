@@ -40,6 +40,6 @@ Attention可以分为**hard attention**和**soft attention**
 Hard attention能够直接给出hard location，通常是bounding box的位置，优点是直观，缺点是不能直接bp。</br>
 Soft attention通常是rnn/lstm/gru encoder-decoder model可以bp。</br>
 <br><br>其他网络结构：<br>**EDA：Encoder+Decoder+attention model**</br></br></br>
-
+[EDA 网络结构](https://pic4.zhimg.com/80/v2-58e1f019fcaf1562a73609e2fd1d398f_hd.jpg)
 
 
