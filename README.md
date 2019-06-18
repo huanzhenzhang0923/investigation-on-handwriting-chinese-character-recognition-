@@ -33,13 +33,13 @@ CASIA-HWDB</br>
 CRNN算法最大的贡献，是把CNN做图像特征工程的潜力与LSTM做序列化识别的潜力，进行结合。它既提取了鲁棒特征，又通过序列识别**避免了传统算法中难度极高的单字符切分与单字符识别**，同时序列化识别也**嵌入时序依赖**（隐含利用语料）。</br>
 **CTC的意义**</br>
 RNN进行时序分类时，不可避免地会出现很多冗余信息，比如一个字母被连续识别两次,如下图将ab识别为aaabb，这就需要一套去冗余机制，但是简单地看到两个连续字母就去冗余的方法也有问题，比如cook，geek一类的词，所以CTC有一个**blank机制**来解决这个问题。</br>
-！[ctc blank机制](https://img2018.cnblogs.com/blog/1093303/201901/1093303-20190129201921725-1294260731.png)
+![ctc blank机制](https://img2018.cnblogs.com/blog/1093303/201901/1093303-20190129201921725-1294260731.png)
 **Attention OCR**
-<br>Attention可以分为**hard attention**和**soft attention**
-**Hard attention**
+<br>Attention可以分为**hard attention**和**soft attention**<br>
+**Hard attention**</br>
 Hard attention能够直接给出hard location，通常是bounding box的位置，优点是直观，缺点是不能直接bp。</br>
 Soft attention通常是rnn/lstm/gru encoder-decoder model可以bp。</br>
 <br><br>其他网络结构：<br>**EDA：Encoder+Decoder+attention model**</br></br></br>
-！[EDA 网络结构](https://pic4.zhimg.com/80/v2-58e1f019fcaf1562a73609e2fd1d398f_hd.jpg)
+![EDA 网络结构](https://pic4.zhimg.com/80/v2-58e1f019fcaf1562a73609e2fd1d398f_hd.jpg)
 
 
