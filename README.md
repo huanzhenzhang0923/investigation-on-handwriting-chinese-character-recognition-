@@ -1,4 +1,4 @@
-#**Investigation On Handwriting Chinese Character Recognition**#
+#**Investigation On Handwriting Chinese Character Recognition**
 
 ## 1.传统方法
 任务分类：
@@ -21,4 +21,6 @@ CASIA-HWDB</br>
 
 
 ## 3.基于深度学习的手写体识别
-
+###端到端不定长文字识别
+两大主流技术：CRNN OCR和attention OCR</br>
+![CRNN](https://img2018.cnblogs.com/blog/1093303/201901/1093303-20190129201843455-243108334.png)
